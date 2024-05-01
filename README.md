@@ -11,9 +11,9 @@ This repository contains a network analyzer and speed test application built usi
 
 Before running the application, make sure you have the following dependencies installed:
 
-  Streamlit: <code> pip install streamlit </code>
-  Psutil: pip install psutil
-  Speedtest-cli: pip install speedtest-cli
+ - Streamlit: <code> pip install streamlit </code>
+ - Psutil: pip install psutil
+ - Speedtest-cli: pip install speedtest-cli
 
 # How to Run
   1. Clone this repository to your local machine: <code> git clone </code>       
@@ -28,11 +28,11 @@ Once you launch the application, you will see a web interface with two options:
 
   1. Packet Capture: Select this option to capture and analyze network packets.
 
-      Choose an interface from the dropdown menu.
-      Click the "Start Capture" button to begin capturing packets.
-      The captured packet information will be displayed on the screen, including the source IP,       destination IP, protocol, and packet length.
+     - Choose an interface from the dropdown menu.
+     - Click the "Start Capture" button to begin capturing packets.
+     - The captured packet information will be displayed on the screen, including the source IP,       destination IP, protocol, and packet length.
 
   2. Speed Test: Select this option to measure your network's download and upload speeds.
 
-      Click the "Run Speed Test" button.
-      The application will perform a speed test using Speedtest.net and display the download          and upload speeds in Mbps.
+     - Click the "Run Speed Test" button.
+     - The application will perform a speed test using Speedtest.net and display the download          and upload speeds in Mbps.
